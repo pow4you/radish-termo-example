@@ -3,7 +3,10 @@ name = "thermo-example"
 version = "0.1.0"
 description = "Room-temperature mesh built on radiodish-actor: sensors, a forecaster and a dashboard, no broker, no config."
 requires-python = ">=3.9"
-dependencies = ["radiodish-actor>=1.0.0"]
+dependencies = [
+    "pytest>=8.4.2",
+    "radiodish-actor>=1.0.0",
+]
 
 [project.optional-dependencies]
 dev = ["pytest"]
